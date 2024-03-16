@@ -1,0 +1,6 @@
+﻿CaseID;Activity;Timestamp;enabled_activities
+1;a;13:30;a, b, c, d
+1;b;14:30;b, c
+1;c;15:30;c
+2;d;16:30;a, b, c, d
+2;e;17:30;e
