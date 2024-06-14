@@ -1,194 +1,194 @@
 InfectionSuspected,org:group,DiagnosticBlood,DisfuncOrg,SIRSCritTachypnea,Hypotensie,SIRSCritHeartRate,Infusion,DiagnosticArtAstrup,concept:name,Age,DiagnosticIC,DiagnosticSputum,DiagnosticLiquor,DiagnosticOther,SIRSCriteria2OrMore,DiagnosticXthorax,SIRSCritTemperature,time:timestamp,DiagnosticUrinaryCulture,SIRSCritLeucos,Oligurie,DiagnosticLacticAcid,lifecycle:transition,Diagnose,Hypoxie,DiagnosticUrinarySediment,DiagnosticECG,Leucocytes,CRP,LacticAcid,enabled_activities,case:concept:name
-True,A,True,False,True,False,False,True,True,ER Registration,90.0,True,False,False,False,True,True,True,2014-07-20 12:27:47+00:00,False,False,False,True,complete,,False,False,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",1
-,C,,,,,,,,ER Triage,,,,,,,,,2014-07-20 12:45:46+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",1
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-07-20 12:48:25+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",1
-,A,,,,,,,,IV Liquid,,,,,,,,,2014-07-20 12:48:40+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",1
-,B,,,,,,,,CRP,,,,,,,,,2014-07-20 12:54:00+00:00,,,,,complete,,,,,,255.0,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",1
-,B,,,,,,,,LacticAcid,,,,,,,,,2014-07-20 12:54:00+00:00,,,,,complete,,,,,,,3.2,"IV Antibiotics, CRP, Leucocytes, LacticAcid",1
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-07-20 12:54:00+00:00,,,,,complete,,,,,8.9,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",1
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-07-20 12:55:10+00:00,,,,,complete,,,,,,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",1
-,F,,,,,,,,Admission NC,,,,,,,,,2014-07-20 15:43:53+00:00,,,,,complete,,,,,,,,"Admission NC, CRP, Leucocytes, LacticAcid",1
-True,A,True,False,True,False,True,True,True,ER Registration,85.0,True,False,False,False,True,True,True,2014-06-19 19:33:32+00:00,False,False,False,True,complete,M,False,False,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",2
-,C,,,,,,,,ER Triage,,,,,,,,,2014-06-19 19:49:50+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",2
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-06-19 19:50:05+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",2
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-06-19 19:55:00+00:00,,,,,complete,,,,,13.3,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",2
-,B,,,,,,,,LacticAcid,,,,,,,,,2014-06-19 19:55:00+00:00,,,,,complete,,,,,,,1.7,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",2
-,B,,,,,,,,CRP,,,,,,,,,2014-06-19 19:55:00+00:00,,,,,complete,,,,,,130.0,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",2
-,A,,,,,,,,IV Liquid,,,,,,,,,2014-06-19 20:00:53+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",2
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-06-19 20:15:02+00:00,,,,,complete,,,,,,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",2
-,G,,,,,,,,Admission NC,,,,,,,,,2014-06-19 23:27:50+00:00,,,,,complete,,,,,,,,"Admission NC, CRP, Leucocytes, LacticAcid",2
-True,A,True,False,True,False,True,True,True,ER Registration,85.0,True,False,False,False,True,True,True,2014-06-19 19:33:32+00:00,False,False,False,True,complete,M,False,False,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",3
-,C,,,,,,,,ER Triage,,,,,,,,,2014-06-19 19:49:50+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",3
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-06-19 19:50:05+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",3
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-06-19 19:55:00+00:00,,,,,complete,,,,,13.3,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",3
-,B,,,,,,,,LacticAcid,,,,,,,,,2014-06-19 19:55:00+00:00,,,,,complete,,,,,,,1.7,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",3
-,B,,,,,,,,CRP,,,,,,,,,2014-06-19 19:55:00+00:00,,,,,complete,,,,,,130.0,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",3
-,A,,,,,,,,IV Liquid,,,,,,,,,2014-06-19 20:00:53+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",3
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-06-19 20:15:02+00:00,,,,,complete,,,,,,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",3
-,G,,,,,,,,Admission NC,,,,,,,,,2014-06-19 23:27:50+00:00,,,,,complete,,,,,,,,"Admission NC, CRP, Leucocytes, LacticAcid",3
-True,A,True,False,True,False,True,True,False,ER Registration,60.0,True,False,False,False,True,True,True,2014-10-08 21:41:35+00:00,False,False,False,True,complete,U,False,False,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",4
-,C,,,,,,,,ER Triage,,,,,,,,,2014-10-08 21:43:36+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",4
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-10-08 21:44:23+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",4
-,A,,,,,,,,IV Liquid,,,,,,,,,2014-10-08 21:44:43+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",4
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-10-08 21:53:00+00:00,,,,,complete,,,,,9.9,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",4
-,B,,,,,,,,CRP,,,,,,,,,2014-10-08 21:53:00+00:00,,,,,complete,,,,,,94.0,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",4
-,B,,,,,,,,LacticAcid,,,,,,,,,2014-10-08 21:53:00+00:00,,,,,complete,,,,,,,1.2,"IV Antibiotics, CRP, Leucocytes, LacticAcid",4
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-10-08 22:56:51+00:00,,,,,complete,,,,,,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",4
-,F,,,,,,,,Admission NC,,,,,,,,,2014-10-09 02:10:07+00:00,,,,,complete,,,,,,,,"Admission NC, CRP, Leucocytes, LacticAcid",4
-,B,,,,,,,,CRP,,,,,,,,,2014-10-09 08:00:00+00:00,,,,,complete,,,,,,131.0,,"Admission NC, CRP, Leucocytes, LacticAcid",4
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-10-09 08:00:00+00:00,,,,,complete,,,,,7.7,,,"Admission NC, CRP, Leucocytes, LacticAcid",4
-True,A,True,False,True,False,True,True,True,ER Registration,90.0,True,True,False,False,True,True,True,2014-03-25 19:04:46+00:00,True,False,False,True,complete,W,False,True,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",5
-,C,,,,,,,,ER Triage,,,,,,,,,2014-03-25 19:09:29+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",5
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-03-25 19:09:39+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",5
-,B,,,,,,,,LacticAcid,,,,,,,,,2014-03-25 19:20:00+00:00,,,,,complete,,,,,,,2.0,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",5
-,B,,,,,,,,CRP,,,,,,,,,2014-03-25 19:20:00+00:00,,,,,complete,,,,,,67.0,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",5
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-03-25 19:20:00+00:00,,,,,complete,,,,,17.5,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",5
-,A,,,,,,,,IV Liquid,,,,,,,,,2014-03-25 20:24:46+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",5
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-03-25 20:24:51+00:00,,,,,complete,,,,,,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",5
-,D,,,,,,,,Admission NC,,,,,,,,,2014-03-25 21:58:19+00:00,,,,,complete,,,,,,,,"Admission NC, CRP, Leucocytes, LacticAcid",5
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-03-26 13:00:00+00:00,,,,,complete,,,,,19.2,,,"Admission NC, CRP, Leucocytes, LacticAcid",5
-,B,,,,,,,,CRP,,,,,,,,,2014-03-26 13:00:00+00:00,,,,,complete,,,,,,175.0,,"Admission NC, CRP, Leucocytes, LacticAcid",5
-True,A,True,False,True,False,True,True,True,ER Registration,60.0,True,False,False,False,True,True,True,2014-10-29 18:36:01+00:00,False,False,False,True,complete,U,False,True,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",6
-,C,,,,,,,,ER Triage,,,,,,,,,2014-10-29 18:47:49+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",6
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-10-29 18:48:06+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",6
-,A,,,,,,,,IV Liquid,,,,,,,,,2014-10-29 19:06:48+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",6
-,B,,,,,,,,CRP,,,,,,,,,2014-10-29 19:09:00+00:00,,,,,complete,,,,,,24.0,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",6
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-10-29 19:09:00+00:00,,,,,complete,,,,,17.7,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",6
-,B,,,,,,,,LacticAcid,,,,,,,,,2014-10-29 19:09:00+00:00,,,,,complete,,,,,,,3.1,"IV Antibiotics, CRP, Leucocytes, LacticAcid",6
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-10-29 19:27:52+00:00,,,,,complete,,,,,,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",6
-,G,,,,,,,,Admission NC,,,,,,,,,2014-10-29 22:48:25+00:00,,,,,complete,,,,,,,,"Admission NC, CRP, Leucocytes, LacticAcid",6
-,B,,,,,,,,CRP,,,,,,,,,2014-10-30 07:00:00+00:00,,,,,complete,,,,,,97.0,,"Admission NC, CRP, Leucocytes, LacticAcid",6
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-10-30 07:00:00+00:00,,,,,complete,,,,,21.8,,,"Admission NC, CRP, Leucocytes, LacticAcid",6
-True,A,True,False,False,False,True,True,True,ER Registration,65.0,True,False,False,False,True,True,True,2014-12-16 20:41:04+00:00,True,False,False,True,complete,C,False,True,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",7
-,C,,,,,,,,ER Triage,,,,,,,,,2014-12-16 20:47:15+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",7
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-12-16 20:47:34+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",7
-,B,,,,,,,,CRP,,,,,,,,,2014-12-16 20:56:00+00:00,,,,,complete,,,,,,311.0,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",7
-,B,,,,,,,,LacticAcid,,,,,,,,,2014-12-16 20:56:00+00:00,,,,,complete,,,,,,,1.0,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",7
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-12-16 20:56:00+00:00,,,,,complete,,,,,17.6,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",7
-,A,,,,,,,,IV Liquid,,,,,,,,,2014-12-17 00:06:24+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",7
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-12-17 00:07:50+00:00,,,,,complete,,,,,,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",7
-,G,,,,,,,,Admission NC,,,,,,,,,2014-12-17 00:08:21+00:00,,,,,complete,,,,,,,,"Admission NC, CRP, Leucocytes, LacticAcid",7
-True,A,True,False,True,False,True,True,False,ER Registration,85.0,True,False,False,False,True,False,True,2014-05-29 19:57:27+00:00,False,False,False,True,complete,E,False,False,False,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",8
-,C,,,,,,,,ER Triage,,,,,,,,,2014-05-29 20:06:57+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",8
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-05-29 20:15:05+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",8
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-05-29 20:40:00+00:00,,,,,complete,,,,,13.8,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",8
-,B,,,,,,,,CRP,,,,,,,,,2014-05-29 20:40:00+00:00,,,,,complete,,,,,,19.0,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",8
-,B,,,,,,,,LacticAcid,,,,,,,,,2014-05-29 20:40:00+00:00,,,,,complete,,,,,,,3.1,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",8
-,A,,,,,,,,IV Liquid,,,,,,,,,2014-05-29 23:34:35+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",8
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-05-29 23:34:35+00:00,,,,,complete,,,,,,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",8
-,O,,,,,,,,Admission NC,,,,,,,,,2014-05-29 23:35:09+00:00,,,,,complete,,,,,,,,"Admission NC, CRP, Leucocytes, LacticAcid",8
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-05-30 08:00:00+00:00,,,,,complete,,,,,21.7,,,"Admission NC, CRP, Leucocytes, LacticAcid",8
-,B,,,,,,,,CRP,,,,,,,,,2014-05-30 08:00:00+00:00,,,,,complete,,,,,,194.0,,"Admission NC, CRP, Leucocytes, LacticAcid",8
-True,A,True,False,True,False,True,True,False,ER Registration,65.0,True,False,False,False,True,True,True,2013-11-28 19:08:21+00:00,True,False,False,True,complete,H,False,False,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",9
-,C,,,,,,,,ER Triage,,,,,,,,,2013-11-28 19:16:35+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",9
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2013-11-28 19:17:12+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",9
-,A,,,,,,,,IV Liquid,,,,,,,,,2013-11-28 19:17:38+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",9
-,B,,,,,,,,Leucocytes,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,11.5,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",9
-,B,,,,,,,,LacticAcid,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,,,2.4,"IV Antibiotics, CRP, Leucocytes, LacticAcid",9
-,B,,,,,,,,CRP,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,,24.0,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",9
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2013-11-28 21:36:33+00:00,,,,,complete,,,,,,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",9
-,G,,,,,,,,Admission NC,,,,,,,,,2013-11-28 21:37:05+00:00,,,,,complete,,,,,,,,"Admission NC, CRP, Leucocytes, LacticAcid",9
-True,A,True,False,True,False,True,True,False,ER Registration,65.0,True,False,False,False,True,True,True,2013-11-28 19:08:21+00:00,True,False,False,True,complete,H,False,False,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",10
-,C,,,,,,,,ER Triage,,,,,,,,,2013-11-28 19:16:35+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",10
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2013-11-28 19:17:12+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",10
-,A,,,,,,,,IV Liquid,,,,,,,,,2013-11-28 19:17:38+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",10
-,B,,,,,,,,Leucocytes,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,11.5,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",10
-,B,,,,,,,,LacticAcid,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,,,2.4,"IV Antibiotics, CRP, Leucocytes, LacticAcid",10
-,B,,,,,,,,CRP,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,,24.0,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",10
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2013-11-28 21:36:33+00:00,,,,,complete,,,,,,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",10
-,G,,,,,,,,Admission NC,,,,,,,,,2013-11-28 21:37:05+00:00,,,,,complete,,,,,,,,"Admission NC, CRP, Leucocytes, LacticAcid",10
-True,A,True,False,True,False,True,True,False,ER Registration,65.0,True,False,False,False,True,True,True,2013-11-28 19:08:21+00:00,True,False,False,True,complete,H,False,False,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",11
-,C,,,,,,,,ER Triage,,,,,,,,,2013-11-28 19:16:35+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",11
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2013-11-28 19:17:12+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",11
-,A,,,,,,,,IV Liquid,,,,,,,,,2013-11-28 19:17:38+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",11
-,B,,,,,,,,Leucocytes,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,11.5,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",11
-,B,,,,,,,,LacticAcid,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,,,2.4,"IV Antibiotics, CRP, Leucocytes, LacticAcid",11
-,B,,,,,,,,CRP,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,,24.0,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",11
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2013-11-28 21:36:33+00:00,,,,,complete,,,,,,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",11
-,G,,,,,,,,Admission NC,,,,,,,,,2013-11-28 21:37:05+00:00,,,,,complete,,,,,,,,"Admission NC, CRP, Leucocytes, LacticAcid",11
-True,A,True,False,False,False,True,True,False,ER Registration,70.0,True,False,False,False,True,True,True,2014-10-04 22:38:43+00:00,True,False,False,True,complete,R,False,True,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",12
-,C,,,,,,,,ER Triage,,,,,,,,,2014-10-04 22:42:02+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",12
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-10-04 23:08:00+00:00,,,,,complete,,,,,20.8,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",12
-,B,,,,,,,,CRP,,,,,,,,,2014-10-04 23:08:00+00:00,,,,,complete,,,,,,126.0,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",12
-,B,,,,,,,,LacticAcid,,,,,,,,,2014-10-04 23:08:00+00:00,,,,,complete,,,,,,,3.0,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",12
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-10-04 23:44:44+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",12
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-10-05 01:42:25+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",12
-,Q,,,,,,,,Admission NC,,,,,,,,,2014-10-05 01:44:05+00:00,,,,,complete,,,,,,,,"Admission NC, Leucocytes, IV Liquid, LacticAcid, CRP",12
-,A,,,,,,,,IV Liquid,,,,,,,,,2014-10-06 00:55:18+00:00,,,,,complete,,,,,,,,"Admission NC, Leucocytes, IV Liquid, LacticAcid, CRP",12
-True,A,True,True,False,False,True,True,False,ER Registration,80.0,True,False,False,False,True,True,True,2014-11-27 20:01:45+00:00,True,False,False,True,complete,E,False,True,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",13
-,C,,,,,,,,ER Triage,,,,,,,,,2014-11-27 20:12:36+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",13
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-11-27 20:12:46+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",13
-,B,,,,,,,,CRP,,,,,,,,,2014-11-27 20:34:00+00:00,,,,,complete,,,,,,64.0,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",13
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-11-27 20:34:00+00:00,,,,,complete,,,,,7.7,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",13
-,B,,,,,,,,LacticAcid,,,,,,,,,2014-11-27 20:34:00+00:00,,,,,complete,,,,,,,0.7,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",13
-,A,,,,,,,,IV Liquid,,,,,,,,,2014-11-27 20:41:31+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",13
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-11-27 20:41:38+00:00,,,,,complete,,,,,,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",13
-,G,,,,,,,,Admission NC,,,,,,,,,2014-11-28 00:45:34+00:00,,,,,complete,,,,,,,,"Admission NC, CRP, Leucocytes, LacticAcid",13
-True,A,True,False,True,False,True,True,True,ER Registration,85.0,True,True,False,False,True,True,True,2014-10-16 15:12:24+00:00,True,False,False,True,complete,,False,True,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",14
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-10-16 15:14:00+00:00,,,,,complete,,,,,18.3,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",14
-,B,,,,,,,,CRP,,,,,,,,,2014-10-16 15:14:00+00:00,,,,,complete,,,,,,21.0,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",14
-,B,,,,,,,,LacticAcid,,,,,,,,,2014-10-16 15:14:00+00:00,,,,,complete,,,,,,,1.6,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",14
-,C,,,,,,,,ER Triage,,,,,,,,,2014-10-16 15:17:16+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",14
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-10-16 15:17:50+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",14
-,A,,,,,,,,IV Liquid,,,,,,,,,2014-10-16 16:00:00+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",14
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-10-16 16:00:00+00:00,,,,,complete,,,,,,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",14
-,G,,,,,,,,Admission NC,,,,,,,,,2014-10-16 20:26:00+00:00,,,,,complete,,,,,,,,"Admission NC, CRP, Leucocytes, LacticAcid",14
-True,A,True,False,True,False,True,True,False,ER Registration,90.0,True,False,False,False,True,True,True,2014-03-01 18:35:34+00:00,True,False,False,True,complete,E,False,True,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",15
-,C,,,,,,,,ER Triage,,,,,,,,,2014-03-01 18:42:11+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",15
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-03-01 18:43:51+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",15
-,B,,,,,,,,CRP,,,,,,,,,2014-03-01 18:45:00+00:00,,,,,complete,,,,,,87.0,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",15
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-03-01 18:45:00+00:00,,,,,complete,,,,,8.5,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",15
-,B,,,,,,,,LacticAcid,,,,,,,,,2014-03-01 18:45:00+00:00,,,,,complete,,,,,,,2.0,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",15
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-03-01 19:00:00+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",15
-,A,,,,,,,,IV Liquid,,,,,,,,,2014-03-01 19:00:00+00:00,,,,,complete,,,,,,,,"Admission NC, Leucocytes, IV Liquid, LacticAcid, CRP",15
-,G,,,,,,,,Admission NC,,,,,,,,,2014-03-01 21:11:22+00:00,,,,,complete,,,,,,,,"Admission NC, CRP, Leucocytes, LacticAcid",15
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-03-02 07:00:00+00:00,,,,,complete,,,,,14.1,,,"Admission NC, CRP, Leucocytes, LacticAcid",15
-,B,,,,,,,,CRP,,,,,,,,,2014-03-02 07:00:00+00:00,,,,,complete,,,,,,155.0,,"Admission NC, CRP, Leucocytes, LacticAcid",15
-True,A,True,False,True,False,True,True,True,ER Registration,85.0,True,True,False,False,True,True,True,2014-02-26 10:15:03+00:00,False,False,False,True,complete,,False,False,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",16
-,C,,,,,,,,ER Triage,,,,,,,,,2014-02-26 10:22:43+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",16
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-02-26 10:22:59+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",16
-,B,,,,,,,,LacticAcid,,,,,,,,,2014-02-26 10:30:00+00:00,,,,,complete,,,,,,,1.9,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",16
-,B,,,,,,,,CRP,,,,,,,,,2014-02-26 10:30:00+00:00,,,,,complete,,,,,,183.0,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",16
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-02-26 10:30:00+00:00,,,,,complete,,,,,6.1,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",16
-,A,,,,,,,,IV Liquid,,,,,,,,,2014-02-26 14:27:59+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",16
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-02-26 14:28:00+00:00,,,,,complete,,,,,,,,"IV Antibiotics, CRP, Leucocytes, LacticAcid",16
-,F,,,,,,,,Admission NC,,,,,,,,,2014-02-26 14:28:44+00:00,,,,,complete,,,,,,,,"Admission NC, CRP, Leucocytes, LacticAcid",16
-True,A,True,False,True,False,False,True,True,ER Registration,90.0,True,False,False,False,True,True,True,2014-10-05 20:51:36+00:00,True,False,False,True,complete,H,False,True,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",17
-,C,,,,,,,,ER Triage,,,,,,,,,2014-10-05 20:54:41+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",17
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-10-05 21:00:29+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",17
-,B,,,,,,,,CRP,,,,,,,,,2014-10-05 21:06:00+00:00,,,,,complete,,,,,,16.0,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",17
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-10-05 21:06:00+00:00,,,,,complete,,,,,14.7,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",17
-,B,,,,,,,,LacticAcid,,,,,,,,,2014-10-05 21:06:00+00:00,,,,,complete,,,,,,,1.0,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",17
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-10-06 01:25:01+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",17
-,F,,,,,,,,Admission NC,,,,,,,,,2014-10-06 01:25:52+00:00,,,,,complete,,,,,,,,"Admission NC, Leucocytes, IV Liquid, LacticAcid, CRP",17
-,B,,,,,,,,CRP,,,,,,,,,2014-10-06 11:00:00+00:00,,,,,complete,,,,,,66.0,,"Admission NC, Leucocytes, IV Liquid, LacticAcid, CRP",17
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-10-06 11:00:00+00:00,,,,,complete,,,,,18.1,,,"Admission NC, Leucocytes, IV Liquid, LacticAcid, CRP",17
-,A,,,,,,,,IV Liquid,,,,,,,,,2014-10-06 21:00:47+00:00,,,,,complete,,,,,,,,"Admission NC, Leucocytes, IV Liquid, LacticAcid, CRP",17
-True,A,True,False,False,False,True,True,False,ER Registration,35.0,True,False,False,False,True,True,True,2014-05-06 20:28:44+00:00,False,False,False,True,complete,IE,False,False,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",18
-,C,,,,,,,,ER Triage,,,,,,,,,2014-05-06 20:45:53+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",18
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-05-06 20:46:24+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",18
-,B,,,,,,,,LacticAcid,,,,,,,,,2014-05-06 21:01:00+00:00,,,,,complete,,,,,,,2.5,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",18
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-05-06 21:01:00+00:00,,,,,complete,,,,,3.9,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",18
-,B,,,,,,,,CRP,,,,,,,,,2014-05-06 21:01:00+00:00,,,,,complete,,,,,,83.0,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",18
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-05-06 22:30:00+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",18
-,A,,,,,,,,IV Liquid,,,,,,,,,2014-05-06 22:30:00+00:00,,,,,complete,,,,,,,,"Admission NC, Leucocytes, IV Liquid, LacticAcid, CRP",18
-,H,,,,,,,,Admission NC,,,,,,,,,2014-05-07 00:22:27+00:00,,,,,complete,,,,,,,,"Admission NC, CRP, Leucocytes, LacticAcid",18
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-05-07 08:00:00+00:00,,,,,complete,,,,,9.3,,,"Admission NC, CRP, Leucocytes, LacticAcid",18
-,B,,,,,,,,CRP,,,,,,,,,2014-05-07 08:00:00+00:00,,,,,complete,,,,,,107.0,,"Admission NC, CRP, Leucocytes, LacticAcid",18
-True,A,True,False,False,False,True,True,True,ER Registration,90.0,True,False,False,False,True,False,True,2014-09-01 08:40:16+00:00,False,False,False,True,complete,,False,False,False,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",19
-,C,,,,,,,,ER Triage,,,,,,,,,2014-09-01 08:48:10+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",19
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-09-01 08:50:36+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",19
-,B,,,,,,,,CRP,,,,,,,,,2014-09-01 09:05:00+00:00,,,,,complete,,,,,,9.0,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",19
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-09-01 09:05:00+00:00,,,,,complete,,,,,5.8,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",19
-,B,,,,,,,,LacticAcid,,,,,,,,,2014-09-01 09:05:00+00:00,,,,,complete,,,,,,,2.7,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",19
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-09-01 17:42:34+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",19
-,G,,,,,,,,Admission NC,,,,,,,,,2014-09-01 17:43:18+00:00,,,,,complete,,,,,,,,"Admission NC, Leucocytes, IV Liquid, LacticAcid, CRP",19
-True,A,True,False,False,False,True,True,True,ER Registration,80.0,True,False,False,False,True,True,True,2014-09-08 20:49:40+00:00,True,False,False,True,complete,PE,False,True,True,,,,"ER Triage, Leucocytes, IV Liquid, LacticAcid, ER Registration, CRP",20
-,C,,,,,,,,ER Triage,,,,,,,,,2014-09-08 21:00:17+00:00,,,,,complete,,,,,,,,"ER Triage, Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",20
-,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-09-08 21:00:40+00:00,,,,,complete,,,,,,,,"Leucocytes, ER Sepsis Triage, Admission IC, IV Liquid, LacticAcid, CRP",20
-,B,,,,,,,,CRP,,,,,,,,,2014-09-08 21:44:00+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",20
-,B,,,,,,,,LacticAcid,,,,,,,,,2014-09-08 21:44:00+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",20
-,B,,,,,,,,Leucocytes,,,,,,,,,2014-09-08 21:44:00+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",20
-,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-09-09 00:05:44+00:00,,,,,complete,,,,,,,,"Leucocytes, IV Liquid, LacticAcid, IV Antibiotics, CRP",20
-,O,,,,,,,,Admission NC,,,,,,,,,2014-09-09 00:07:07+00:00,,,,,complete,,,,,,,,"Admission NC, Leucocytes, IV Liquid, LacticAcid, CRP",20
-,A,,,,,,,,IV Liquid,,,,,,,,,2014-09-09 22:05:30+00:00,,,,,complete,,,,,,,,"Admission NC, Leucocytes, IV Liquid, LacticAcid, CRP",20
+True,A,True,False,True,False,False,True,True,ER Registration,90.0,True,False,False,False,True,True,True,2014-07-20 12:27:47+00:00,False,False,False,True,complete,,False,False,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",1
+,C,,,,,,,,ER Triage,,,,,,,,,2014-07-20 12:45:46+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",1
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-07-20 12:48:25+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",1
+,A,,,,,,,,IV Liquid,,,,,,,,,2014-07-20 12:48:40+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",1
+,B,,,,,,,,CRP,,,,,,,,,2014-07-20 12:54:00+00:00,,,,,complete,,,,,,255.0,,"LacticAcid, CRP, IV Antibiotics, Leucocytes",1
+,B,,,,,,,,LacticAcid,,,,,,,,,2014-07-20 12:54:00+00:00,,,,,complete,,,,,,,3.2,"LacticAcid, CRP, IV Antibiotics, Leucocytes",1
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-07-20 12:54:00+00:00,,,,,complete,,,,,8.9,,,"CRP, LacticAcid, IV Antibiotics, Leucocytes",1
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-07-20 12:55:10+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, IV Antibiotics, Leucocytes",1
+,F,,,,,,,,Admission NC,,,,,,,,,2014-07-20 15:43:53+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, Admission NC, Leucocytes",1
+True,A,True,False,True,False,True,True,True,ER Registration,85.0,True,False,False,False,True,True,True,2014-06-19 19:33:32+00:00,False,False,False,True,complete,M,False,False,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",2
+,C,,,,,,,,ER Triage,,,,,,,,,2014-06-19 19:49:50+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",2
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-06-19 19:50:05+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",2
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-06-19 19:55:00+00:00,,,,,complete,,,,,13.3,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",2
+,B,,,,,,,,LacticAcid,,,,,,,,,2014-06-19 19:55:00+00:00,,,,,complete,,,,,,,1.7,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",2
+,B,,,,,,,,CRP,,,,,,,,,2014-06-19 19:55:00+00:00,,,,,complete,,,,,,130.0,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",2
+,A,,,,,,,,IV Liquid,,,,,,,,,2014-06-19 20:00:53+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",2
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-06-19 20:15:02+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, IV Antibiotics, Leucocytes",2
+,G,,,,,,,,Admission NC,,,,,,,,,2014-06-19 23:27:50+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, Admission NC, Leucocytes",2
+True,A,True,False,True,False,True,True,True,ER Registration,85.0,True,False,False,False,True,True,True,2014-06-19 19:33:32+00:00,False,False,False,True,complete,M,False,False,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",3
+,C,,,,,,,,ER Triage,,,,,,,,,2014-06-19 19:49:50+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",3
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-06-19 19:50:05+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",3
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-06-19 19:55:00+00:00,,,,,complete,,,,,13.3,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",3
+,B,,,,,,,,LacticAcid,,,,,,,,,2014-06-19 19:55:00+00:00,,,,,complete,,,,,,,1.7,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",3
+,B,,,,,,,,CRP,,,,,,,,,2014-06-19 19:55:00+00:00,,,,,complete,,,,,,130.0,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",3
+,A,,,,,,,,IV Liquid,,,,,,,,,2014-06-19 20:00:53+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",3
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-06-19 20:15:02+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, IV Antibiotics, Leucocytes",3
+,G,,,,,,,,Admission NC,,,,,,,,,2014-06-19 23:27:50+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, Admission NC, Leucocytes",3
+True,A,True,False,True,False,True,True,False,ER Registration,60.0,True,False,False,False,True,True,True,2014-10-08 21:41:35+00:00,False,False,False,True,complete,U,False,False,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",4
+,C,,,,,,,,ER Triage,,,,,,,,,2014-10-08 21:43:36+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",4
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-10-08 21:44:23+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",4
+,A,,,,,,,,IV Liquid,,,,,,,,,2014-10-08 21:44:43+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",4
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-10-08 21:53:00+00:00,,,,,complete,,,,,9.9,,,"LacticAcid, CRP, IV Antibiotics, Leucocytes",4
+,B,,,,,,,,CRP,,,,,,,,,2014-10-08 21:53:00+00:00,,,,,complete,,,,,,94.0,,"LacticAcid, CRP, IV Antibiotics, Leucocytes",4
+,B,,,,,,,,LacticAcid,,,,,,,,,2014-10-08 21:53:00+00:00,,,,,complete,,,,,,,1.2,"LacticAcid, CRP, IV Antibiotics, Leucocytes",4
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-10-08 22:56:51+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, IV Antibiotics, Leucocytes",4
+,F,,,,,,,,Admission NC,,,,,,,,,2014-10-09 02:10:07+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, Admission NC, Leucocytes",4
+,B,,,,,,,,CRP,,,,,,,,,2014-10-09 08:00:00+00:00,,,,,complete,,,,,,131.0,,"CRP, LacticAcid, Admission NC, Leucocytes",4
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-10-09 08:00:00+00:00,,,,,complete,,,,,7.7,,,"CRP, LacticAcid, Admission NC, Leucocytes",4
+True,A,True,False,True,False,True,True,True,ER Registration,90.0,True,True,False,False,True,True,True,2014-03-25 19:04:46+00:00,True,False,False,True,complete,W,False,True,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",5
+,C,,,,,,,,ER Triage,,,,,,,,,2014-03-25 19:09:29+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",5
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-03-25 19:09:39+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",5
+,B,,,,,,,,LacticAcid,,,,,,,,,2014-03-25 19:20:00+00:00,,,,,complete,,,,,,,2.0,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",5
+,B,,,,,,,,CRP,,,,,,,,,2014-03-25 19:20:00+00:00,,,,,complete,,,,,,67.0,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",5
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-03-25 19:20:00+00:00,,,,,complete,,,,,17.5,,,"LacticAcid, Leucocytes, IV Liquid, CRP, IV Antibiotics",5
+,A,,,,,,,,IV Liquid,,,,,,,,,2014-03-25 20:24:46+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",5
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-03-25 20:24:51+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, IV Antibiotics, Leucocytes",5
+,D,,,,,,,,Admission NC,,,,,,,,,2014-03-25 21:58:19+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, Admission NC, Leucocytes",5
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-03-26 13:00:00+00:00,,,,,complete,,,,,19.2,,,"CRP, LacticAcid, Admission NC, Leucocytes",5
+,B,,,,,,,,CRP,,,,,,,,,2014-03-26 13:00:00+00:00,,,,,complete,,,,,,175.0,,"CRP, LacticAcid, Admission NC, Leucocytes",5
+True,A,True,False,True,False,True,True,True,ER Registration,60.0,True,False,False,False,True,True,True,2014-10-29 18:36:01+00:00,False,False,False,True,complete,U,False,True,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",6
+,C,,,,,,,,ER Triage,,,,,,,,,2014-10-29 18:47:49+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",6
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-10-29 18:48:06+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",6
+,A,,,,,,,,IV Liquid,,,,,,,,,2014-10-29 19:06:48+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",6
+,B,,,,,,,,CRP,,,,,,,,,2014-10-29 19:09:00+00:00,,,,,complete,,,,,,24.0,,"LacticAcid, CRP, IV Antibiotics, Leucocytes",6
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-10-29 19:09:00+00:00,,,,,complete,,,,,17.7,,,"LacticAcid, CRP, IV Antibiotics, Leucocytes",6
+,B,,,,,,,,LacticAcid,,,,,,,,,2014-10-29 19:09:00+00:00,,,,,complete,,,,,,,3.1,"LacticAcid, CRP, IV Antibiotics, Leucocytes",6
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-10-29 19:27:52+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, IV Antibiotics, Leucocytes",6
+,G,,,,,,,,Admission NC,,,,,,,,,2014-10-29 22:48:25+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, Admission NC, Leucocytes",6
+,B,,,,,,,,CRP,,,,,,,,,2014-10-30 07:00:00+00:00,,,,,complete,,,,,,97.0,,"CRP, LacticAcid, Admission NC, Leucocytes",6
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-10-30 07:00:00+00:00,,,,,complete,,,,,21.8,,,"CRP, LacticAcid, Admission NC, Leucocytes",6
+True,A,True,False,False,False,True,True,True,ER Registration,65.0,True,False,False,False,True,True,True,2014-12-16 20:41:04+00:00,True,False,False,True,complete,C,False,True,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",7
+,C,,,,,,,,ER Triage,,,,,,,,,2014-12-16 20:47:15+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",7
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-12-16 20:47:34+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",7
+,B,,,,,,,,CRP,,,,,,,,,2014-12-16 20:56:00+00:00,,,,,complete,,,,,,311.0,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",7
+,B,,,,,,,,LacticAcid,,,,,,,,,2014-12-16 20:56:00+00:00,,,,,complete,,,,,,,1.0,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",7
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-12-16 20:56:00+00:00,,,,,complete,,,,,17.6,,,"LacticAcid, Leucocytes, IV Liquid, CRP, IV Antibiotics",7
+,A,,,,,,,,IV Liquid,,,,,,,,,2014-12-17 00:06:24+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",7
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-12-17 00:07:50+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, IV Antibiotics, Leucocytes",7
+,G,,,,,,,,Admission NC,,,,,,,,,2014-12-17 00:08:21+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, Admission NC, Leucocytes",7
+True,A,True,False,True,False,True,True,False,ER Registration,85.0,True,False,False,False,True,False,True,2014-05-29 19:57:27+00:00,False,False,False,True,complete,E,False,False,False,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",8
+,C,,,,,,,,ER Triage,,,,,,,,,2014-05-29 20:06:57+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",8
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-05-29 20:15:05+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",8
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-05-29 20:40:00+00:00,,,,,complete,,,,,13.8,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",8
+,B,,,,,,,,CRP,,,,,,,,,2014-05-29 20:40:00+00:00,,,,,complete,,,,,,19.0,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",8
+,B,,,,,,,,LacticAcid,,,,,,,,,2014-05-29 20:40:00+00:00,,,,,complete,,,,,,,3.1,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",8
+,A,,,,,,,,IV Liquid,,,,,,,,,2014-05-29 23:34:35+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",8
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-05-29 23:34:35+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, IV Antibiotics, Leucocytes",8
+,O,,,,,,,,Admission NC,,,,,,,,,2014-05-29 23:35:09+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, Admission NC, Leucocytes",8
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-05-30 08:00:00+00:00,,,,,complete,,,,,21.7,,,"CRP, LacticAcid, Admission NC, Leucocytes",8
+,B,,,,,,,,CRP,,,,,,,,,2014-05-30 08:00:00+00:00,,,,,complete,,,,,,194.0,,"CRP, LacticAcid, Admission NC, Leucocytes",8
+True,A,True,False,True,False,True,True,False,ER Registration,65.0,True,False,False,False,True,True,True,2013-11-28 19:08:21+00:00,True,False,False,True,complete,H,False,False,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",9
+,C,,,,,,,,ER Triage,,,,,,,,,2013-11-28 19:16:35+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",9
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2013-11-28 19:17:12+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",9
+,A,,,,,,,,IV Liquid,,,,,,,,,2013-11-28 19:17:38+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",9
+,B,,,,,,,,Leucocytes,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,11.5,,,"LacticAcid, CRP, IV Antibiotics, Leucocytes",9
+,B,,,,,,,,LacticAcid,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,,,2.4,"LacticAcid, CRP, IV Antibiotics, Leucocytes",9
+,B,,,,,,,,CRP,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,,24.0,,"LacticAcid, CRP, IV Antibiotics, Leucocytes",9
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2013-11-28 21:36:33+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, IV Antibiotics, Leucocytes",9
+,G,,,,,,,,Admission NC,,,,,,,,,2013-11-28 21:37:05+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, Admission NC, Leucocytes",9
+True,A,True,False,True,False,True,True,False,ER Registration,65.0,True,False,False,False,True,True,True,2013-11-28 19:08:21+00:00,True,False,False,True,complete,H,False,False,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",10
+,C,,,,,,,,ER Triage,,,,,,,,,2013-11-28 19:16:35+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",10
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2013-11-28 19:17:12+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",10
+,A,,,,,,,,IV Liquid,,,,,,,,,2013-11-28 19:17:38+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",10
+,B,,,,,,,,Leucocytes,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,11.5,,,"LacticAcid, CRP, IV Antibiotics, Leucocytes",10
+,B,,,,,,,,LacticAcid,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,,,2.4,"LacticAcid, CRP, IV Antibiotics, Leucocytes",10
+,B,,,,,,,,CRP,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,,24.0,,"LacticAcid, CRP, IV Antibiotics, Leucocytes",10
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2013-11-28 21:36:33+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, IV Antibiotics, Leucocytes",10
+,G,,,,,,,,Admission NC,,,,,,,,,2013-11-28 21:37:05+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, Admission NC, Leucocytes",10
+True,A,True,False,True,False,True,True,False,ER Registration,65.0,True,False,False,False,True,True,True,2013-11-28 19:08:21+00:00,True,False,False,True,complete,H,False,False,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",11
+,C,,,,,,,,ER Triage,,,,,,,,,2013-11-28 19:16:35+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",11
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2013-11-28 19:17:12+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",11
+,A,,,,,,,,IV Liquid,,,,,,,,,2013-11-28 19:17:38+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",11
+,B,,,,,,,,Leucocytes,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,11.5,,,"LacticAcid, CRP, IV Antibiotics, Leucocytes",11
+,B,,,,,,,,LacticAcid,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,,,2.4,"LacticAcid, CRP, IV Antibiotics, Leucocytes",11
+,B,,,,,,,,CRP,,,,,,,,,2013-11-28 19:41:00+00:00,,,,,complete,,,,,,24.0,,"LacticAcid, CRP, IV Antibiotics, Leucocytes",11
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2013-11-28 21:36:33+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, IV Antibiotics, Leucocytes",11
+,G,,,,,,,,Admission NC,,,,,,,,,2013-11-28 21:37:05+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, Admission NC, Leucocytes",11
+True,A,True,False,False,False,True,True,False,ER Registration,70.0,True,False,False,False,True,True,True,2014-10-04 22:38:43+00:00,True,False,False,True,complete,R,False,True,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",12
+,C,,,,,,,,ER Triage,,,,,,,,,2014-10-04 22:42:02+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",12
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-10-04 23:08:00+00:00,,,,,complete,,,,,20.8,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",12
+,B,,,,,,,,CRP,,,,,,,,,2014-10-04 23:08:00+00:00,,,,,complete,,,,,,126.0,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",12
+,B,,,,,,,,LacticAcid,,,,,,,,,2014-10-04 23:08:00+00:00,,,,,complete,,,,,,,3.0,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",12
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-10-04 23:44:44+00:00,,,,,complete,,,,,,,,"LacticAcid, ER Sepsis Triage, Leucocytes, IV Liquid, CRP, Admission IC",12
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-10-05 01:42:25+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",12
+,Q,,,,,,,,Admission NC,,,,,,,,,2014-10-05 01:44:05+00:00,,,,,complete,,,,,,,,"LacticAcid, Leucocytes, IV Liquid, CRP, Admission NC",12
+,A,,,,,,,,IV Liquid,,,,,,,,,2014-10-06 00:55:18+00:00,,,,,complete,,,,,,,,"LacticAcid, Leucocytes, IV Liquid, CRP, Admission NC",12
+True,A,True,True,False,False,True,True,False,ER Registration,80.0,True,False,False,False,True,True,True,2014-11-27 20:01:45+00:00,True,False,False,True,complete,E,False,True,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",13
+,C,,,,,,,,ER Triage,,,,,,,,,2014-11-27 20:12:36+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",13
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-11-27 20:12:46+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",13
+,B,,,,,,,,CRP,,,,,,,,,2014-11-27 20:34:00+00:00,,,,,complete,,,,,,64.0,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",13
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-11-27 20:34:00+00:00,,,,,complete,,,,,7.7,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",13
+,B,,,,,,,,LacticAcid,,,,,,,,,2014-11-27 20:34:00+00:00,,,,,complete,,,,,,,0.7,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",13
+,A,,,,,,,,IV Liquid,,,,,,,,,2014-11-27 20:41:31+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",13
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-11-27 20:41:38+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, IV Antibiotics, Leucocytes",13
+,G,,,,,,,,Admission NC,,,,,,,,,2014-11-28 00:45:34+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, Admission NC, Leucocytes",13
+True,A,True,False,True,False,True,True,True,ER Registration,85.0,True,True,False,False,True,True,True,2014-10-16 15:12:24+00:00,True,False,False,True,complete,,False,True,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",14
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-10-16 15:14:00+00:00,,,,,complete,,,,,18.3,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",14
+,B,,,,,,,,CRP,,,,,,,,,2014-10-16 15:14:00+00:00,,,,,complete,,,,,,21.0,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",14
+,B,,,,,,,,LacticAcid,,,,,,,,,2014-10-16 15:14:00+00:00,,,,,complete,,,,,,,1.6,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",14
+,C,,,,,,,,ER Triage,,,,,,,,,2014-10-16 15:17:16+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",14
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-10-16 15:17:50+00:00,,,,,complete,,,,,,,,"LacticAcid, ER Sepsis Triage, Leucocytes, IV Liquid, CRP, Admission IC",14
+,A,,,,,,,,IV Liquid,,,,,,,,,2014-10-16 16:00:00+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",14
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-10-16 16:00:00+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, IV Antibiotics, Leucocytes",14
+,G,,,,,,,,Admission NC,,,,,,,,,2014-10-16 20:26:00+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, Admission NC, Leucocytes",14
+True,A,True,False,True,False,True,True,False,ER Registration,90.0,True,False,False,False,True,True,True,2014-03-01 18:35:34+00:00,True,False,False,True,complete,E,False,True,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",15
+,C,,,,,,,,ER Triage,,,,,,,,,2014-03-01 18:42:11+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",15
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-03-01 18:43:51+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",15
+,B,,,,,,,,CRP,,,,,,,,,2014-03-01 18:45:00+00:00,,,,,complete,,,,,,87.0,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",15
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-03-01 18:45:00+00:00,,,,,complete,,,,,8.5,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",15
+,B,,,,,,,,LacticAcid,,,,,,,,,2014-03-01 18:45:00+00:00,,,,,complete,,,,,,,2.0,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",15
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-03-01 19:00:00+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",15
+,A,,,,,,,,IV Liquid,,,,,,,,,2014-03-01 19:00:00+00:00,,,,,complete,,,,,,,,"LacticAcid, Leucocytes, IV Liquid, CRP, Admission NC",15
+,G,,,,,,,,Admission NC,,,,,,,,,2014-03-01 21:11:22+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, Admission NC, Leucocytes",15
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-03-02 07:00:00+00:00,,,,,complete,,,,,14.1,,,"CRP, LacticAcid, Admission NC, Leucocytes",15
+,B,,,,,,,,CRP,,,,,,,,,2014-03-02 07:00:00+00:00,,,,,complete,,,,,,155.0,,"CRP, LacticAcid, Admission NC, Leucocytes",15
+True,A,True,False,True,False,True,True,True,ER Registration,85.0,True,True,False,False,True,True,True,2014-02-26 10:15:03+00:00,False,False,False,True,complete,,False,False,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",16
+,C,,,,,,,,ER Triage,,,,,,,,,2014-02-26 10:22:43+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",16
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-02-26 10:22:59+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",16
+,B,,,,,,,,LacticAcid,,,,,,,,,2014-02-26 10:30:00+00:00,,,,,complete,,,,,,,1.9,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",16
+,B,,,,,,,,CRP,,,,,,,,,2014-02-26 10:30:00+00:00,,,,,complete,,,,,,183.0,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",16
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-02-26 10:30:00+00:00,,,,,complete,,,,,6.1,,,"LacticAcid, Leucocytes, IV Liquid, CRP, IV Antibiotics",16
+,A,,,,,,,,IV Liquid,,,,,,,,,2014-02-26 14:27:59+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",16
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-02-26 14:28:00+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, IV Antibiotics, Leucocytes",16
+,F,,,,,,,,Admission NC,,,,,,,,,2014-02-26 14:28:44+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, Admission NC, Leucocytes",16
+True,A,True,False,True,False,False,True,True,ER Registration,90.0,True,False,False,False,True,True,True,2014-10-05 20:51:36+00:00,True,False,False,True,complete,H,False,True,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",17
+,C,,,,,,,,ER Triage,,,,,,,,,2014-10-05 20:54:41+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",17
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-10-05 21:00:29+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",17
+,B,,,,,,,,CRP,,,,,,,,,2014-10-05 21:06:00+00:00,,,,,complete,,,,,,16.0,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",17
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-10-05 21:06:00+00:00,,,,,complete,,,,,14.7,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",17
+,B,,,,,,,,LacticAcid,,,,,,,,,2014-10-05 21:06:00+00:00,,,,,complete,,,,,,,1.0,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",17
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-10-06 01:25:01+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",17
+,F,,,,,,,,Admission NC,,,,,,,,,2014-10-06 01:25:52+00:00,,,,,complete,,,,,,,,"LacticAcid, Leucocytes, IV Liquid, CRP, Admission NC",17
+,B,,,,,,,,CRP,,,,,,,,,2014-10-06 11:00:00+00:00,,,,,complete,,,,,,66.0,,"LacticAcid, Leucocytes, IV Liquid, CRP, Admission NC",17
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-10-06 11:00:00+00:00,,,,,complete,,,,,18.1,,,"LacticAcid, Leucocytes, IV Liquid, CRP, Admission NC",17
+,A,,,,,,,,IV Liquid,,,,,,,,,2014-10-06 21:00:47+00:00,,,,,complete,,,,,,,,"LacticAcid, Leucocytes, IV Liquid, CRP, Admission NC",17
+True,A,True,False,False,False,True,True,False,ER Registration,35.0,True,False,False,False,True,True,True,2014-05-06 20:28:44+00:00,False,False,False,True,complete,IE,False,False,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",18
+,C,,,,,,,,ER Triage,,,,,,,,,2014-05-06 20:45:53+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",18
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-05-06 20:46:24+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",18
+,B,,,,,,,,LacticAcid,,,,,,,,,2014-05-06 21:01:00+00:00,,,,,complete,,,,,,,2.5,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",18
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-05-06 21:01:00+00:00,,,,,complete,,,,,3.9,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",18
+,B,,,,,,,,CRP,,,,,,,,,2014-05-06 21:01:00+00:00,,,,,complete,,,,,,83.0,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",18
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-05-06 22:30:00+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",18
+,A,,,,,,,,IV Liquid,,,,,,,,,2014-05-06 22:30:00+00:00,,,,,complete,,,,,,,,"LacticAcid, Leucocytes, IV Liquid, CRP, Admission NC",18
+,H,,,,,,,,Admission NC,,,,,,,,,2014-05-07 00:22:27+00:00,,,,,complete,,,,,,,,"CRP, LacticAcid, Admission NC, Leucocytes",18
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-05-07 08:00:00+00:00,,,,,complete,,,,,9.3,,,"CRP, LacticAcid, Admission NC, Leucocytes",18
+,B,,,,,,,,CRP,,,,,,,,,2014-05-07 08:00:00+00:00,,,,,complete,,,,,,107.0,,"CRP, LacticAcid, Admission NC, Leucocytes",18
+True,A,True,False,False,False,True,True,True,ER Registration,90.0,True,False,False,False,True,False,True,2014-09-01 08:40:16+00:00,False,False,False,True,complete,,False,False,False,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",19
+,C,,,,,,,,ER Triage,,,,,,,,,2014-09-01 08:48:10+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",19
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-09-01 08:50:36+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",19
+,B,,,,,,,,CRP,,,,,,,,,2014-09-01 09:05:00+00:00,,,,,complete,,,,,,9.0,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",19
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-09-01 09:05:00+00:00,,,,,complete,,,,,5.8,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",19
+,B,,,,,,,,LacticAcid,,,,,,,,,2014-09-01 09:05:00+00:00,,,,,complete,,,,,,,2.7,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",19
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-09-01 17:42:34+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",19
+,G,,,,,,,,Admission NC,,,,,,,,,2014-09-01 17:43:18+00:00,,,,,complete,,,,,,,,"LacticAcid, Leucocytes, IV Liquid, CRP, Admission NC",19
+True,A,True,False,False,False,True,True,True,ER Registration,80.0,True,False,False,False,True,True,True,2014-09-08 20:49:40+00:00,True,False,False,True,complete,PE,False,True,True,,,,"LacticAcid, ER Registration, Leucocytes, IV Liquid, ER Triage, CRP",20
+,C,,,,,,,,ER Triage,,,,,,,,,2014-09-08 21:00:17+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, ER Triage, LacticAcid, Admission IC",20
+,A,,,,,,,,ER Sepsis Triage,,,,,,,,,2014-09-08 21:00:40+00:00,,,,,complete,,,,,,,,"ER Sepsis Triage, CRP, Leucocytes, IV Liquid, LacticAcid, Admission IC",20
+,B,,,,,,,,CRP,,,,,,,,,2014-09-08 21:44:00+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",20
+,B,,,,,,,,LacticAcid,,,,,,,,,2014-09-08 21:44:00+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",20
+,B,,,,,,,,Leucocytes,,,,,,,,,2014-09-08 21:44:00+00:00,,,,,complete,,,,,,,,"LacticAcid, Leucocytes, IV Liquid, CRP, IV Antibiotics",20
+,A,,,,,,,,IV Antibiotics,,,,,,,,,2014-09-09 00:05:44+00:00,,,,,complete,,,,,,,,"CRP, Leucocytes, IV Liquid, LacticAcid, IV Antibiotics",20
+,O,,,,,,,,Admission NC,,,,,,,,,2014-09-09 00:07:07+00:00,,,,,complete,,,,,,,,"LacticAcid, Leucocytes, IV Liquid, CRP, Admission NC",20
+,A,,,,,,,,IV Liquid,,,,,,,,,2014-09-09 22:05:30+00:00,,,,,complete,,,,,,,,"LacticAcid, Leucocytes, IV Liquid, CRP, Admission NC",20

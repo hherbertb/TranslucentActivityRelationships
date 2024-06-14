@@ -1,0 +1,154 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1718256512.731219" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1718256512.731219</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <place id="p_9">
+        <name>
+          <text>p_9</text>
+        </name>
+      </place>
+      <place id="p_11">
+        <name>
+          <text>p_11</text>
+        </name>
+      </place>
+      <place id="p_13">
+        <name>
+          <text>p_13</text>
+        </name>
+      </place>
+      <place id="p_15">
+        <name>
+          <text>p_15</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <place id="p_10">
+        <name>
+          <text>p_10</text>
+        </name>
+      </place>
+      <place id="p_12">
+        <name>
+          <text>p_12</text>
+        </name>
+      </place>
+      <place id="p_14">
+        <name>
+          <text>p_14</text>
+        </name>
+      </place>
+      <transition id="0ad7e3cd-4a47-4663-acac-2877011e62e5">
+        <name>
+          <text>ER Registration</text>
+        </name>
+      </transition>
+      <transition id="abb87522-12cb-4c72-9908-a8b0c3741b5e">
+        <name>
+          <text>ER Sepsis Triage</text>
+        </name>
+      </transition>
+      <transition id="624a2b54-1292-42db-a22d-6ff3f49aeeab">
+        <name>
+          <text>ER Triage</text>
+        </name>
+      </transition>
+      <transition id="8db02fe0-66f7-4f9d-abf6-dc51f456eaf0">
+        <name>
+          <text>CRP</text>
+        </name>
+      </transition>
+      <transition id="61ee0367-5d97-4779-bb04-b1e5f36006d4">
+        <name>
+          <text>IV Liquid</text>
+        </name>
+      </transition>
+      <transition id="dce51bb8-b7a8-4ed9-affb-8011b0fdb61f">
+        <name>
+          <text>IV Antibiotics</text>
+        </name>
+      </transition>
+      <transition id="0ec7ad87-1f6a-4793-b1a2-350d038f4af0">
+        <name>
+          <text>LacticAcid</text>
+        </name>
+      </transition>
+      <transition id="648e0e74-7f6f-458f-a5ea-c8a9d4e355dd">
+        <name>
+          <text>Leucocytes</text>
+        </name>
+      </transition>
+      <transition id="46375a85-f2fb-4f0e-b5d7-722746f4840c">
+        <name>
+          <text>Admission NC</text>
+        </name>
+      </transition>
+      <arc id="2588790466688" source="46375a85-f2fb-4f0e-b5d7-722746f4840c" target="sink"/>
+      <arc id="2588800264848" source="p_4" target="abb87522-12cb-4c72-9908-a8b0c3741b5e"/>
+      <arc id="2588790465680" source="p_12" target="dce51bb8-b7a8-4ed9-affb-8011b0fdb61f"/>
+      <arc id="2588790467984" source="p_10" target="dce51bb8-b7a8-4ed9-affb-8011b0fdb61f"/>
+      <arc id="2588790467216" source="p_14" target="dce51bb8-b7a8-4ed9-affb-8011b0fdb61f"/>
+      <arc id="2588800264224" source="624a2b54-1292-42db-a22d-6ff3f49aeeab" target="p_4"/>
+      <arc id="2588800263072" source="p_9" target="0ec7ad87-1f6a-4793-b1a2-350d038f4af0"/>
+      <arc id="2588790465440" source="p_15" target="46375a85-f2fb-4f0e-b5d7-722746f4840c"/>
+      <arc id="2588790465824" source="abb87522-12cb-4c72-9908-a8b0c3741b5e" target="p_7"/>
+      <arc id="2588790464672" source="p_8" target="dce51bb8-b7a8-4ed9-affb-8011b0fdb61f"/>
+      <arc id="2588800264368" source="p_3" target="624a2b54-1292-42db-a22d-6ff3f49aeeab"/>
+      <arc id="2588790466736" source="p_13" target="61ee0367-5d97-4779-bb04-b1e5f36006d4"/>
+      <arc id="2588790465200" source="abb87522-12cb-4c72-9908-a8b0c3741b5e" target="p_11"/>
+      <arc id="2588800265280" source="p_7" target="8db02fe0-66f7-4f9d-abf6-dc51f456eaf0"/>
+      <arc id="2588800263888" source="p_11" target="648e0e74-7f6f-458f-a5ea-c8a9d4e355dd"/>
+      <arc id="2588790464720" source="61ee0367-5d97-4779-bb04-b1e5f36006d4" target="p_14"/>
+      <arc id="2588800263264" source="source" target="0ad7e3cd-4a47-4663-acac-2877011e62e5"/>
+      <arc id="2588800265952" source="648e0e74-7f6f-458f-a5ea-c8a9d4e355dd" target="p_12"/>
+      <arc id="2588790466784" source="abb87522-12cb-4c72-9908-a8b0c3741b5e" target="p_13"/>
+      <arc id="2588800263024" source="0ec7ad87-1f6a-4793-b1a2-350d038f4af0" target="p_10"/>
+      <arc id="2588800263408" source="0ad7e3cd-4a47-4663-acac-2877011e62e5" target="p_3"/>
+      <arc id="2588800264560" source="8db02fe0-66f7-4f9d-abf6-dc51f456eaf0" target="p_8"/>
+      <arc id="2588790468080" source="dce51bb8-b7a8-4ed9-affb-8011b0fdb61f" target="p_15"/>
+      <arc id="2588790465776" source="abb87522-12cb-4c72-9908-a8b0c3741b5e" target="p_9"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

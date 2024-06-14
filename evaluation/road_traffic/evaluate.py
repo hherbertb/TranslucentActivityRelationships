@@ -26,6 +26,7 @@ def evaluate(log, threshold):
         base = "None"
 
     net, initial_marking, final_marking = pm4py.discover_petri_net_inductive(log, noise_threshold=threshold)
+    pm4py.write.write_pnml(net, initial_marking, final_marking, "models/base_model.pnml")
     # add translucent information
     log = create_translucent_event_log(log, net, initial_marking, final_marking)
     dataframe = pm4py.convert_to_dataframe(log)
@@ -53,18 +54,22 @@ def evaluate(log, threshold):
         i += 1
         print(i)
         model, i_m, f_m = discover_petri_net(sub_log, {"translucent_variant": "IM"})
+        pm4py.write.write_pnml(model, i_m, f_m, "models/IM/" + str(i))
         im_fitness.append(pm4py.conformance.fitness_alignments(log, model, i_m, f_m)["log_fitness"])
         im_precision.append(translucent_precision_score(log, model, i_m, f_m))
 
         model, i_m, f_m = discover_petri_net(sub_log, {"translucent_variant": "IMto"})
+        pm4py.write.write_pnml(model, i_m, f_m, "models/IMto/" + str(i))
         imto_fitness.append(pm4py.conformance.fitness_alignments(log, model, i_m, f_m)["log_fitness"])
         imto_precision.append(translucent_precision_score(log, model, i_m, f_m))
 
         model, i_m, f_m = discover_petri_net(sub_log, {"translucent_variant": "IMtf"})
+        pm4py.write.write_pnml(model, i_m, f_m, "models/IMtf/" + str(i))
         imtf_fitness.append(pm4py.conformance.fitness_alignments(log, model, i_m, f_m)["log_fitness"])
         imtf_precision.append(translucent_precision_score(log, model, i_m, f_m))
 
         model, i_m, f_m = discover_petri_net(sub_log, {"translucent_variant": "IMts"})
+        pm4py.write.write_pnml(model, i_m, f_m, "models/IMts/" + str(i))
         imts_fitness.append(pm4py.conformance.fitness_alignments(log, model, i_m, f_m)["log_fitness"])
         imts_precision.append(translucent_precision_score(log, model, i_m, f_m))
 
@@ -158,6 +163,8 @@ def evaluate(log, threshold):
     plt.savefig(base + "/result_10.pdf", bbox_inches="tight")
 
 
-settings = [0.8, 0.6, 0.4, 0.2]
+#settings = [0.8, 0.6, 0.4, 0.2]
+settings = [0.4]
+
 for s in settings:
     evaluate(initial_log, s)

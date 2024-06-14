@@ -1,0 +1,119 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1718270975.9044995" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1718270975.9044995</text>
+    </name>
+    <page id="n0">
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="p_12">
+        <name>
+          <text>p_12</text>
+        </name>
+      </place>
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="p_8">
+        <name>
+          <text>p_8</text>
+        </name>
+      </place>
+      <place id="p_9">
+        <name>
+          <text>p_9</text>
+        </name>
+      </place>
+      <place id="p_13">
+        <name>
+          <text>p_13</text>
+        </name>
+      </place>
+      <place id="p_14">
+        <name>
+          <text>p_14</text>
+        </name>
+      </place>
+      <place id="p_15">
+        <name>
+          <text>p_15</text>
+        </name>
+      </place>
+      <transition id="58da7ae6-917f-4401-9f51-f35e479be086">
+        <name>
+          <text>Insert Fine Notification</text>
+        </name>
+      </transition>
+      <transition id="73c8e164-27bf-4ad6-9d79-336340d42222">
+        <name>
+          <text>Payment</text>
+        </name>
+      </transition>
+      <transition id="efc4933f-0006-4119-a87f-dc4e36f32743">
+        <name>
+          <text>Send Fine</text>
+        </name>
+      </transition>
+      <transition id="2cce493b-4e95-4109-9437-088a6b2353a9">
+        <name>
+          <text>Create Fine</text>
+        </name>
+      </transition>
+      <transition id="72c1d8e0-96ee-4237-94dc-04abb1900739">
+        <name>
+          <text>Add penalty</text>
+        </name>
+      </transition>
+      <transition id="tauJoin_2">
+        <name>
+          <text>tauJoin_2</text>
+        </name>
+        <toolspecific tool="ProM" version="6.4" activity="$invisible$" localNodeID="f3b8865a-4322-4311-b9ab-8fd9b1435164"/>
+      </transition>
+      <arc id="1739189522048" source="72c1d8e0-96ee-4237-94dc-04abb1900739" target="p_5"/>
+      <arc id="1739189518880" source="tauJoin_2" target="sink"/>
+      <arc id="1739216975520" source="2cce493b-4e95-4109-9437-088a6b2353a9" target="p_8"/>
+      <arc id="1739216974368" source="p_9" target="tauJoin_2"/>
+      <arc id="1739196026160" source="efc4933f-0006-4119-a87f-dc4e36f32743" target="p_15"/>
+      <arc id="1739216974128" source="p_13" target="tauJoin_2"/>
+      <arc id="1739189519312" source="p_5" target="tauJoin_2"/>
+      <arc id="1739189522384" source="p_4" target="72c1d8e0-96ee-4237-94dc-04abb1900739"/>
+      <arc id="1739196024528" source="73c8e164-27bf-4ad6-9d79-336340d42222" target="p_13"/>
+      <arc id="1739189520608" source="p_8" target="58da7ae6-917f-4401-9f51-f35e479be086"/>
+      <arc id="1739189519840" source="58da7ae6-917f-4401-9f51-f35e479be086" target="p_9"/>
+      <arc id="1739189520992" source="2cce493b-4e95-4109-9437-088a6b2353a9" target="p_4"/>
+      <arc id="1739216974560" source="2cce493b-4e95-4109-9437-088a6b2353a9" target="p_12"/>
+      <arc id="1739189521136" source="source" target="2cce493b-4e95-4109-9437-088a6b2353a9"/>
+      <arc id="1739196025200" source="p_12" target="73c8e164-27bf-4ad6-9d79-336340d42222"/>
+      <arc id="1739196025968" source="p_14" target="efc4933f-0006-4119-a87f-dc4e36f32743"/>
+      <arc id="1739216973936" source="2cce493b-4e95-4109-9437-088a6b2353a9" target="p_14"/>
+      <arc id="1739216975856" source="p_15" target="tauJoin_2"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

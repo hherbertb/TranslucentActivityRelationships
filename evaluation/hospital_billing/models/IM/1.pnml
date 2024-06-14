@@ -1,0 +1,97 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<pnml>
+  <net id="imdf_net_1718231199.481535" type="http://www.pnml.org/version-2009/grammar/pnmlcoremodel">
+    <name>
+      <text>imdf_net_1718231199.481535</text>
+    </name>
+    <page id="n0">
+      <place id="p_4">
+        <name>
+          <text>p_4</text>
+        </name>
+      </place>
+      <place id="p_6">
+        <name>
+          <text>p_6</text>
+        </name>
+      </place>
+      <place id="source">
+        <name>
+          <text>source</text>
+        </name>
+        <initialMarking>
+          <text>1</text>
+        </initialMarking>
+      </place>
+      <place id="p_5">
+        <name>
+          <text>p_5</text>
+        </name>
+      </place>
+      <place id="sink">
+        <name>
+          <text>sink</text>
+        </name>
+      </place>
+      <place id="p_3">
+        <name>
+          <text>p_3</text>
+        </name>
+      </place>
+      <place id="p_7">
+        <name>
+          <text>p_7</text>
+        </name>
+      </place>
+      <transition id="cac029b5-f2d8-4ed5-8fef-70efb9018ab0">
+        <name>
+          <text>NEW</text>
+        </name>
+      </transition>
+      <transition id="97935b39-6aa7-4b01-b46b-a94c78b7965d">
+        <name>
+          <text>FIN</text>
+        </name>
+      </transition>
+      <transition id="923b877e-985d-4ab4-9961-d7cee2b3c050">
+        <name>
+          <text>RELEASE</text>
+        </name>
+      </transition>
+      <transition id="470e56ce-4504-415b-8f6c-5b62a7aa9533">
+        <name>
+          <text>CHANGE DIAGN</text>
+        </name>
+      </transition>
+      <transition id="0a3a5e7e-b749-43ac-94f8-256154bac818">
+        <name>
+          <text>CODE OK</text>
+        </name>
+      </transition>
+      <transition id="0b0c96aa-d75b-487c-a962-dde616d31b1c">
+        <name>
+          <text>BILLED</text>
+        </name>
+      </transition>
+      <arc id="1486498138336" source="97935b39-6aa7-4b01-b46b-a94c78b7965d" target="p_5"/>
+      <arc id="1486498136896" source="0b0c96aa-d75b-487c-a962-dde616d31b1c" target="sink"/>
+      <arc id="1486498137232" source="source" target="cac029b5-f2d8-4ed5-8fef-70efb9018ab0"/>
+      <arc id="1486498138192" source="p_4" target="97935b39-6aa7-4b01-b46b-a94c78b7965d"/>
+      <arc id="1486498138864" source="cac029b5-f2d8-4ed5-8fef-70efb9018ab0" target="p_3"/>
+      <arc id="1486498136464" source="470e56ce-4504-415b-8f6c-5b62a7aa9533" target="p_4"/>
+      <arc id="1486498138576" source="p_3" target="470e56ce-4504-415b-8f6c-5b62a7aa9533"/>
+      <arc id="1486498139728" source="p_5" target="923b877e-985d-4ab4-9961-d7cee2b3c050"/>
+      <arc id="1486498137808" source="923b877e-985d-4ab4-9961-d7cee2b3c050" target="p_6"/>
+      <arc id="1486498136560" source="p_6" target="0a3a5e7e-b749-43ac-94f8-256154bac818"/>
+      <arc id="1486498137712" source="0a3a5e7e-b749-43ac-94f8-256154bac818" target="p_7"/>
+      <arc id="1486498137616" source="p_7" target="0b0c96aa-d75b-487c-a962-dde616d31b1c"/>
+    </page>
+    <finalmarkings>
+      <marking>
+        <place idref="sink">
+          <text>1</text>
+        </place>
+      </marking>
+    </finalmarkings>
+  </net>
+</pnml>

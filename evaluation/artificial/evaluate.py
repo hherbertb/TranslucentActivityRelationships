@@ -32,18 +32,22 @@ for number in numbers:
     log = log_converter.apply(log, variant=log_converter.Variants.TO_EVENT_LOG)
     # log = add_start_and_end_translucent(log)
     model, i_m, f_m = discover_petri_net(log, {"translucent_variant": "IM"})
+    pm4py.write.write_pnml(model, i_m, f_m, "models/IM/"+str(number))
     im_fitness.append(pm4py.conformance.fitness_alignments(ground_truth, model, i_m, f_m)["log_fitness"])
     im_precision.append(translucent_precision_score(ground_truth, model, i_m, f_m))
 
     model, i_m, f_m = discover_petri_net(log, {"translucent_variant": "IMto"})
+    pm4py.write.write_pnml(model, i_m, f_m, "models/IMto/"+str(number))
     imto_fitness.append(pm4py.conformance.fitness_alignments(ground_truth, model, i_m, f_m)["log_fitness"])
     imto_precision.append(translucent_precision_score(ground_truth, model, i_m, f_m))
 
     model, i_m, f_m = discover_petri_net(log, {"translucent_variant": "IMtf"})
+    pm4py.write.write_pnml(model, i_m, f_m, "models/IMtf/"+str(number))
     imtf_fitness.append(pm4py.conformance.fitness_alignments(ground_truth, model, i_m, f_m)["log_fitness"])
     imtf_precision.append(translucent_precision_score(ground_truth, model, i_m, f_m))
 
     model, i_m, f_m = discover_petri_net(log, {"translucent_variant": "IMts"})
+    pm4py.write.write_pnml(model, i_m, f_m, "models/IMts/"+str(number))
     imts_fitness.append(pm4py.conformance.fitness_alignments(ground_truth, model, i_m, f_m)["log_fitness"])
     imts_precision.append(translucent_precision_score(ground_truth, model, i_m, f_m))
 
