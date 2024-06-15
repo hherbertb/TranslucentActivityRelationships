@@ -1,4 +1,4 @@
-# Translucent Process Mining 
+# Translucent Activity Relationships
 In this repository, we provide the code for our translucent discovery algorithm as well as the code for our precision method.
 We also point out how we evaluated our method. We assume that enabled activities are provided with the attribute/column name: "enabled_activities".
 For further information, and the data we used, we refer to our evaluation folder. 
