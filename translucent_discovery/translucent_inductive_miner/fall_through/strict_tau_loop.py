@@ -50,4 +50,4 @@ class StrictTauLoopTranslucent(FallThrough[IMDataStructureTranslucent]):
         log = obj.data_structure
         proj = cls._get_projected_log(log)
         if sum(proj.values()) > sum(log.values()):
-            return ProcessTree(operator=Operator.LOOP), [IMDataStructureTranslucent(proj, obj.log), IMDataStructureTranslucent(Counter(), obj.log)]
+            return ProcessTree(operator=Operator.LOOP), [IMDataStructureTranslucent(proj, obj.log, frequent=obj.frequent), IMDataStructureTranslucent(Counter(), obj.log, frequent=obj.frequent)]

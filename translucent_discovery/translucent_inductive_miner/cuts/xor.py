@@ -75,4 +75,4 @@ class ExclusiveChoiceCutTranslucent(ExclusiveChoiceCut[IMDataStructureTranslucen
                 if e in groups[count[0][0]]:
                     new_trace = new_trace + (e,)
             logs[count[0][0]].update({new_trace: obj.data_structure[t]})
-        return list(map(lambda l: IMDataStructureTranslucent(l, obj.log), logs))
+        return list(map(lambda l: IMDataStructureTranslucent(l, obj.log, frequent=obj.frequent), logs))

@@ -6,7 +6,7 @@ from pm4py.algo.discovery.inductive.dtypes.im_ds import IMDataStructureLog
 from pm4py.objects.log.obj import EventLog, Trace
 from pm4py.objects.dfg.obj import DFG
 from typing import TypeVar, Generic, Optional, Union
-from translucent_discovery.translucent_inductive_miner.tDFG import discover_dfg
+from translucent_discovery.translucent_inductive_miner.tDFG import discover_dfg, discover_frequent_dfg
 from pm4py.objects.dfg.obj import DFG
 from pm4py.util.compression import util as comut
 from pm4py.util.compression.dtypes import UVCL
@@ -49,15 +49,21 @@ def split_log(uvcl, log):
 
 
 class IMDataStructureTranslucent(IMDataStructureLog[UVCL]):
-    def __init__(self, obj: UVCL, log, dfg: Optional[DFG] = None):
+    def __init__(self, obj: UVCL, log, dfg: Optional[DFG] = None, frequent=False, tdfg = None):
         super().__init__(obj)
         if dfg is None:
             self._dfg = comut.discover_dfg_uvcl(self._obj)
         else:
             self._dfg = dfg
-
+        self._frequent = frequent
         self._log = split_log(self._obj, copy.deepcopy(log))
-        self._tdfg = discover_dfg(self._log)
+        if not frequent:
+            self._tdfg = discover_dfg(self._log)
+        else:
+            if tdfg is None:
+                self._tdfg = discover_frequent_dfg(self._log)
+            else:
+                self._tdfg = tdfg
 
     @property
     def dfg(self) -> DFG:
@@ -70,3 +76,8 @@ class IMDataStructureTranslucent(IMDataStructureLog[UVCL]):
     @property
     def log(self):
         return self._log
+
+    @property
+    def frequent(self):
+        return self._frequent
+

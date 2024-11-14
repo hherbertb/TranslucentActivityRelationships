@@ -109,7 +109,10 @@ class InductiveMinerFrameworkTranslucent(ABC, Generic[T]):
             else:
                 print("Variant not set!!!")
         if tree is None:
-            parameters["tDFG"] = False
+            if parameters["tDFG_fall_through"]:
+                parameters["tDFG"] = True
+            else:
+                parameters["tDFG"] = False
             ft = self.fall_through(obj, parameters)
             tree = self._recurse(ft[0], ft[1], parameters=parameters, level=level)
         return tree

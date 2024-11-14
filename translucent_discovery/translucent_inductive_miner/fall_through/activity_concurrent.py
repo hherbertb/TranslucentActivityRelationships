@@ -17,7 +17,7 @@
 from collections import Counter
 from typing import Optional, Tuple, List, Any, Dict
 
-from pm4py.algo.discovery.inductive.cuts.factory import CutFactory
+from translucent_discovery.translucent_inductive_miner.cuts.factory import CutFactory
 from translucent_discovery.translucent_inductive_miner.data_structure import IMDataStructureTranslucent
 from pm4py.algo.discovery.inductive.fall_through.abc import FallThrough
 from pm4py.algo.discovery.inductive.variants.instances import IMInstance
@@ -106,4 +106,4 @@ class ActivityConcurrentTranslucent(FallThrough[IMDataStructureTranslucent]):
         for t in log:
             l_a.update({tuple(filter(lambda e: e == candidate, t)): log[t]})
             l_other.update({tuple(filter(lambda e: e != candidate, t)): log[t]})
-        return ProcessTree(operator=Operator.PARALLEL), [IMDataStructureTranslucent(l_a, obj.log), IMDataStructureTranslucent(l_other, obj.log)]
+        return ProcessTree(operator=Operator.PARALLEL), [IMDataStructureTranslucent(l_a, obj.log, frequent=obj.frequent), IMDataStructureTranslucent(l_other, obj.log, frequent=obj.frequent)]
