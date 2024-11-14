@@ -46,10 +46,8 @@ class FallThroughFactory:
     def get_fall_throughs(cls, obj: T, inst: IMInstance, parameters: Optional[Dict[str, Any]] = None) -> List[S]:
         if parameters is None:
             parameters = {}
-        if inst is IMInstance.IM:
-            if type(obj) is IMDataStructureTranslucent:
-                return [EmptyTracesTranslucent, ActivityOncePerTraceTranslucent, ActivityConcurrentTranslucent, StrictTauLoopTranslucent,
-                            TauLoopTranslucent, FlowerModelTranslucent]
+        if type(obj) is IMDataStructureTranslucent:
+            return [EmptyTracesTranslucent, ActivityOncePerTraceTranslucent, ActivityConcurrentTranslucent, StrictTauLoopTranslucent, TauLoopTranslucent, FlowerModelTranslucent]
 
     @classmethod
     def fall_through(cls, obj: T, inst: IMInstance, pool, manager, parameters: Optional[Dict[str, Any]] = None) -> Tuple[ProcessTree, List[T]]:

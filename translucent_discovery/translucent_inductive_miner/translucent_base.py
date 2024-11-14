@@ -1,4 +1,5 @@
 from translucent_discovery.translucent_inductive_miner.im import IM
+from translucent_discovery.translucent_inductive_miner.imf import IMF
 from pm4py.util.compression import util as comut
 from pm4py.util import xes_constants as xes_util
 from enum import Enum
@@ -17,19 +18,25 @@ class Parameters(Enum):
     CASE_ID_KEY = constants.PARAMETER_CONSTANT_CASEID_KEY
 
 
-def discover_process_tree(log, parameters):
+def discover_process_tree(log, parameters, noise_threshold):
     ack = exec_utils.get_param_value(Parameters.ACTIVITY_KEY, parameters, xes_util.DEFAULT_NAME_KEY)
     tk = exec_utils.get_param_value(Parameters.TIMESTAMP_KEY, parameters, xes_util.DEFAULT_TIMESTAMP_KEY)
     cidk = exec_utils.get_param_value(Parameters.CASE_ID_KEY, parameters, pmutil.constants.CASE_CONCEPT_NAME)
     if isinstance(log, pd.DataFrame):
         log = log_converter.apply(log, variant=log_converter.Variants.TO_EVENT_LOG)
     uvcl = comut.get_variants(comut.project_univariate(log, key=ack, df_glue=cidk, df_sorting_criterion_key=tk))
-    im = IM(parameters)
-    temp = IMDataStructureTranslucent(uvcl, log)
-    return im.apply(temp, parameters)
+    if noise_threshold == 0:
+        im = IM(parameters)
+        temp = IMDataStructureTranslucent(uvcl, log)
+        return im.apply(temp, parameters)
+    else:
+        imf = IMF(parameters)
+        parameters["noise_threshold"] = noise_threshold
+        temp = IMDataStructureTranslucent(uvcl, log, frequent=True)
+        return imf.apply(temp, parameters)
 
 
-def discover_petri_net(log, parameters):
-    process_tree = discover_process_tree(log, parameters)
+def discover_petri_net(log, parameters, noise_threshold=0):
+    process_tree = discover_process_tree(log, parameters, noise_threshold)
     return pm4py.convert_to_petri_net(process_tree)
 

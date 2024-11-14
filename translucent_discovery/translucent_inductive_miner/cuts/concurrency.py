@@ -86,4 +86,4 @@ class ConcurrencyCutTranslucent(ConcurrencyCut[IMDataStructureTranslucent]):
             for t in obj.data_structure:
                 c[tuple(filter(lambda e: e in g, t))] = obj.data_structure[t]
             r.append(c)
-        return list(map(lambda l: IMDataStructureTranslucent(l, obj.log), r))
+        return list(map(lambda l: IMDataStructureTranslucent(l, obj.log, frequent=obj.frequent), r))
