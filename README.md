@@ -57,3 +57,30 @@ The artificial scenario consists of the file `evaluate.py` file and the differen
 Each folder consists of `evaluate.py`. This file creates in the corresponding sub-folders the associated ground truth and the different variants.
 In the "04" folders, the data for the experiments in our paper are stored.
 The original events logs are public available and are not part of this Github due to their size.
+
+### Publications
+This work has been published. If you find the methods and datasets useful, please consider citing the following paper: 
+
+> **Harry H. Beyel, Wil M. P. van der Aalst**. (2024). *Improving Process Discovery Using Translucent Activity Relationships*. Business Process Management, pp.146-163. [DOI](https://doi.org/10.1007/978-3-031-70396-6_9) | [Article Link]([https://www.sciencedirect.com/science/article/pii/S2665963823000933](https://link.springer.com/chapter/10.1007/978-3-031-70396-6_9))
+
+BiBTeX: 
+```bibtex
+@inproceedings{TranslucentActivityRelationships,
+  author       = {Harry H. Beyel and
+                  Wil M. P. van der Aalst},
+  editor       = {Andrea Marrella and
+                  Manuel Resinas and
+                  Mieke Jans and
+                  Michael Rosemann},
+  title        = {Improving Process Discovery Using Translucent Activity Relationships},
+  booktitle    = {Business Process Management - 22nd International Conference, {BPM}
+                  2024, Krakow, Poland, September 1-6, 2024, Proceedings},
+  series       = {Lecture Notes in Computer Science},
+  volume       = {14940},
+  pages        = {146--163},
+  publisher    = {Springer},
+  year         = {2024},
+  url          = {https://doi.org/10.1007/978-3-031-70396-6\_9},
+  doi          = {10.1007/978-3-031-70396-6\_9},
+}
+```
