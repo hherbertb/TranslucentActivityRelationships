@@ -61,7 +61,7 @@ The original events logs are public available and are not part of this Github du
 ### Publications
 This work has been published. If you find the methods and datasets useful, please consider citing the following paper: 
 
-> **Harry H. Beyel, Wil M. P. van der Aalst**. (2024). *Improving Process Discovery Using Translucent Activity Relationships*. Business Process Management, pp.146-163. [DOI](https://doi.org/10.1007/978-3-031-70396-6_9) | [Article Link]([https://www.sciencedirect.com/science/article/pii/S2665963823000933](https://link.springer.com/chapter/10.1007/978-3-031-70396-6_9))
+> **Harry H. Beyel, Wil M. P. van der Aalst**. (2024). *Improving Process Discovery Using Translucent Activity Relationships*. Business Process Management, pp.146-163. [DOI](https://doi.org/10.1007/978-3-031-70396-6_9) | [Article Link](https://link.springer.com/chapter/10.1007/978-3-031-70396-6_9)
 
 BiBTeX: 
 ```bibtex
