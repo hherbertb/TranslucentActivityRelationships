@@ -28,8 +28,23 @@ To discover process models, based on translucent event logs, the following steps
     log = pm4py.convert_to_event_log(dataframe)
     model, i_m, f_m = discover_petri_net(log, {"translucent_variant": "IMts"})
 
-Note that there are different parameters for `translucent_variant` possible. In particular the following: 
+Note that there are different parameters for `translucent_variant` possible. In particular, the following: 
 `IM`, `IMto`, `IMtf`, and `IMts`.
+
+Other newly added parameters concern noise filtering and which graph to use when applying fall-throughs.
+
+    import pm4py
+    import pandas as pd
+    from translucent_discovery.translucent_inductive_miner.translucent_base import discover_petri_net
+
+    dataframe = pd.read_csv('running-example.csv', sep=";")
+    dataframe = pm4py.format_dataframe(dataframe, case_id='CaseID', activity_key='Activity', timestamp_key='Timestamp')
+    log = pm4py.convert_to_event_log(dataframe
+    noise_filter = 0.2
+    model, i_m, f_m = discover_petri_net(log, {"translucent_variant": "IMts"},  "tDFG_fall_through": False}, 0.2))
+
+The value for the parameter `tDFG_fall_through` is either `True` or `False`.
+
 
 ## Translucent Precision 
 To compute a translucent precision score, the following is needed. 
@@ -59,7 +74,7 @@ In the "04" folders, the data for the experiments in our paper are stored.
 The original events logs are public available and are not part of this Github due to their size.
 
 ### Publications
-This work has been published. If you find the methods and datasets useful, please consider citing the following paper: 
+This work has been published. If you find the methods and datasets useful, please consider citing the following paper(s): 
 
 > **Harry H. Beyel, Wil M. P. van der Aalst**. (2024). *Improving Process Discovery Using Translucent Activity Relationships*. Business Process Management, pp.146-163. [DOI](https://doi.org/10.1007/978-3-031-70396-6_9) | [Article Link](https://link.springer.com/chapter/10.1007/978-3-031-70396-6_9)
 
@@ -84,3 +99,20 @@ BiBTeX:
   doi          = {10.1007/978-3-031-70396-6\_9},
 }
 ```
+
+
+> **Harry H. Beyel, Wil M. P. van der Aalst**. (2025). *Using translucent activity relationships frequencies to enhance process discovery*.  Process Science 2, 15. [DOI](https://doi.org/10.1007/s44311-025-00010-y) | [Article Link](https://link.springer.com/article/10.1007/s44311-025-00010-y)
+
+BiBTeX: 
+```bibtex
+@inproceedings{TranslucentActivityRelationshipsFrequency,
+  author       = {Harry H. Beyel and
+                  Wil M. P. van der Aalst},
+  journal      = {Process Science},
+  volume       = {2},
+  number       = {1},
+  year         = {2025},
+  doi          = {10.1007/s44311-025-00010-y},
+}
+```
+
