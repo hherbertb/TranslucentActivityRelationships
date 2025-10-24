@@ -41,7 +41,7 @@ Other newly added parameters concern noise filtering and which graph to use when
     dataframe = pm4py.format_dataframe(dataframe, case_id='CaseID', activity_key='Activity', timestamp_key='Timestamp')
     log = pm4py.convert_to_event_log(dataframe
     noise_filter = 0.2
-    model, i_m, f_m = discover_petri_net(log, {"translucent_variant": "IMts"},  "tDFG_fall_through": False}, 0.2))
+    model, i_m, f_m = discover_petri_net(log, {"translucent_variant": "IMts",  "tDFG_fall_through": False}, 0.2))
 
 The value for the parameter `tDFG_fall_through` is either `True` or `False`.
 
