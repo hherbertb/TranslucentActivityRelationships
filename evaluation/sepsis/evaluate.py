@@ -8,35 +8,44 @@ from evaluation.translucent_f_1_score import compute_f_1_scores
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
+import os
+import glob
 
-initial_log = pm4py.read_xes("Sepsis Cases - Event Log.xes")
-initial_log = log_converter.apply(initial_log, variant=log_converter.Variants.TO_EVENT_LOG)
 
 
-def evaluate(log, threshold):
-    if threshold == 0.8:
+def evaluate(base, tDFG, threshold):
+    if base == 0.8:
         base = "08"
-    elif threshold == 0.6:
+    elif base == 0.6:
         base = "06"
-    elif threshold == 0.4:
+    elif base == 0.4:
         base = "04"
-    elif threshold == 0.2:
+    elif base == 0.3:
+        base = "03"
+    elif base == 0.2:
         base = "02"
     else:
         base = "None"
 
-    net, initial_marking, final_marking = pm4py.discover_petri_net_inductive(log, noise_threshold=threshold)
-    pm4py.write.write_pnml(net, initial_marking, final_marking, "models/base_model.pnml")
-    # add translucent information
-    log = create_translucent_event_log(log, net, initial_marking, final_marking)
-    dataframe = pm4py.convert_to_dataframe(log)
-    dataframe.to_csv(base + '/ground_truth.csv', sep=",", index=False)
-    # create sublogs
-    dataframe_list = create_logs(log)
-    i = 0
-    while i < len(dataframe_list):
-        dataframe_list[i].to_csv(base+"/"+str(i + 1) + '.csv', sep=",", index=False)
-        i += 1
+    if threshold == 0.8:
+        threshold_str = "08"
+    elif threshold == 0.6:
+        threshold_str = "06"
+    elif threshold == 0.4:
+        threshold_str = "04"
+    elif threshold == 0.3:
+        threshold_str = "03"
+    elif threshold == 0.2:
+        threshold_str = "02"
+    elif threshold == 0:
+        threshold_str = "00"
+    else:
+        threshold_str = "None"
+    # Bedeutung: base --> Mit welchem IMf wurde der log erstellt
+    # threshold --> Mit welchem noise filtering werden die Modelle erstellt
+    log = pd.read_csv('logs/'+base+'/ground_truth.csv')
+    log = log_converter.apply(log, variant=log_converter.Variants.TO_EVENT_LOG)
+
     im_fitness = []
     im_precision = []
 
@@ -49,27 +58,45 @@ def evaluate(log, threshold):
     imts_fitness = []
     imts_precision = []
     i = 0
-    while i < len(dataframe_list):
-        sub_log = log_converter.apply(dataframe_list[i], variant=log_converter.Variants.TO_EVENT_LOG)
-        i += 1
+    subfolder_path = 'logs/'+base
+
+    # Get a list of all CSV files in the subfolder except 'ground_truth.csv'
+    csv_files = glob.glob(os.path.join(subfolder_path, '*.csv'))
+    csv_files = [file for file in csv_files if 'ground_truth.csv' not in file]
+    i = 0
+    for file in csv_files:
         print(i)
-        model, i_m, f_m = discover_petri_net(sub_log, {"translucent_variant": "IM"})
-        pm4py.write.write_pnml(model, i_m, f_m, "models/IM/" + str(i))
+        i += 1
+        df = pd.read_csv(file)
+        sub_log = log_converter.apply(df, variant=log_converter.Variants.TO_EVENT_LOG)
+        if not tDFG:
+            model, i_m, f_m = discover_petri_net(sub_log, {"translucent_variant": "IM"}, threshold)
+        else:
+            model, i_m, f_m = discover_petri_net(sub_log, {"translucent_variant": "IM", "tDFG_fall_through": True}, threshold)
         im_fitness.append(pm4py.conformance.fitness_alignments(log, model, i_m, f_m)["log_fitness"])
         im_precision.append(translucent_precision_score(log, model, i_m, f_m))
 
-        model, i_m, f_m = discover_petri_net(sub_log, {"translucent_variant": "IMto"})
-        pm4py.write.write_pnml(model, i_m, f_m, "models/IMto/" + str(i))
+        if not tDFG:
+            model, i_m, f_m = discover_petri_net(sub_log, {"translucent_variant": "IMto"}, threshold)
+        else:
+            model, i_m, f_m = discover_petri_net(sub_log, {"translucent_variant": "IMto", "tDFG_fall_through": True},
+                                                 threshold)
         imto_fitness.append(pm4py.conformance.fitness_alignments(log, model, i_m, f_m)["log_fitness"])
         imto_precision.append(translucent_precision_score(log, model, i_m, f_m))
 
-        model, i_m, f_m = discover_petri_net(sub_log, {"translucent_variant": "IMtf"})
-        pm4py.write.write_pnml(model, i_m, f_m, "models/IMtf/" + str(i))
+        if not tDFG:
+            model, i_m, f_m = discover_petri_net(sub_log, {"translucent_variant": "IMtf"}, threshold)
+        else:
+            model, i_m, f_m = discover_petri_net(sub_log, {"translucent_variant": "IMtf", "tDFG_fall_through": True},
+                                                 threshold)
         imtf_fitness.append(pm4py.conformance.fitness_alignments(log, model, i_m, f_m)["log_fitness"])
         imtf_precision.append(translucent_precision_score(log, model, i_m, f_m))
 
-        model, i_m, f_m = discover_petri_net(sub_log, {"translucent_variant": "IMts"})
-        pm4py.write.write_pnml(model, i_m, f_m, "models/IMts/" + str(i))
+        if not tDFG:
+            model, i_m, f_m = discover_petri_net(sub_log, {"translucent_variant": "IMts"}, threshold)
+        else:
+            model, i_m, f_m = discover_petri_net(sub_log, {"translucent_variant": "IMts", "tDFG_fall_through": True},
+                                                 threshold)
         imts_fitness.append(pm4py.conformance.fitness_alignments(log, model, i_m, f_m)["log_fitness"])
         imts_precision.append(translucent_precision_score(log, model, i_m, f_m))
 
@@ -79,16 +106,29 @@ def evaluate(log, threshold):
     imts_f1 = compute_f_1_scores(imts_fitness, imts_precision)
 
     result_im = pd.DataFrame({"Fitness": im_fitness, "Precision": im_precision, "F1_Score": im_f1})
-    result_im.to_csv(base + "/im_result.csv", sep=",", index=False)
+    if not tDFG:
+        result_im.to_csv('results/DFG_fall/'+base+"/"+threshold_str+"/im_result.csv", sep=",", index=False)
+    else:
+        result_im.to_csv('results/tDFG_fall/'+base+"/"+threshold_str+"/im_result.csv", sep=",", index=False)
 
     result_imto = pd.DataFrame({"Fitness": imto_fitness, "Precision": imto_precision, "F1_Score": imto_f1})
-    result_imto.to_csv(base + "/imto_result.csv", sep=",", index=False)
+    if not tDFG:
+        result_imto.to_csv('results/DFG_fall/'+base+"/"+threshold_str+"/imto_result.csv", sep=",", index=False)
+    else:
+        result_imto.to_csv('results/tDFG_fall/'+base+"/"+threshold_str+"/imto_result.csv", sep=",", index=False)
 
     result_imtf = pd.DataFrame({"Fitness": imtf_fitness, "Precision": imtf_precision, "F1_Score": imtf_f1})
-    result_imtf.to_csv(base + "/imtf_result.csv", sep=",", index=False)
+    if not tDFG:
+        result_imtf.to_csv('results/DFG_fall/'+base+"/"+threshold_str+"/imtf_result.csv", sep=",", index=False)
+    else:
+        result_imtf.to_csv('results/tDFG_fall/'+base+"/"+threshold_str+"/imtf_result.csv", sep=",", index=False)
+
 
     result_imts = pd.DataFrame({"Fitness": imts_fitness, "Precision": imts_precision, "F1_Score": imts_f1})
-    result_imts.to_csv(base + "/imts_result.csv", sep=",", index=False)
+    if not tDFG:
+        result_imts.to_csv('results/DFG_fall/'+base+"/"+threshold_str+"/imts_result.csv", sep=",", index=False)
+    else:
+        result_imts.to_csv('results/tDFG_fall/'+base+"/"+threshold_str+"/imts_result.csv", sep=",", index=False)
 
     algorithms = ['IM', 'IMto', 'IMtf', 'IMts']
     criteria = ['Fitness', 'Precision', 'F1-Score']
@@ -137,7 +177,10 @@ def evaluate(log, threshold):
     plt.tight_layout()
 
     # Save plot as a tight PDF
-    plt.savefig(base + "/result_5.pdf", bbox_inches="tight")
+    if not tDFG:
+        plt.savefig('results/DFG_fall/'+base+"/"+threshold_str+"/result_5.pdf", bbox_inches="tight")
+    else:
+        plt.savefig('results/tDFG_fall/'+base+"/"+threshold_str+"/result_5.pdf", bbox_inches="tight")
 
     # Create subplots
     fig, axs = plt.subplots(1, 3, figsize=(15, 5))
@@ -160,10 +203,18 @@ def evaluate(log, threshold):
     plt.tight_layout()
 
     # Save plot as a tight PDF
-    plt.savefig(base + "/result_10.pdf", bbox_inches="tight")
+    if not tDFG:
+        plt.savefig('results/DFG_fall/'+base+"/"+threshold_str+"/result_10.pdf", bbox_inches="tight")
+    else:
+        plt.savefig('results/tDFG_fall/'+base+"/"+threshold_str+"/result_10.pdf", bbox_inches="tight")
 
 
-#settings = [0.8, 0.6, 0.4, 0.2]
-settings = [0.4]
-for s in settings:
-    evaluate(initial_log, s)
+logs = [0.8, 0.6, 0.4, 0.3, 0.2]
+model = [0.8, 0.6, 0.4, 0.3, 0.2, 0]
+
+tDFGs = [True, False]
+
+for log in logs:
+    for s2 in model:
+        for tdfg in tDFGs:
+            evaluate(log, tdfg, s2)
